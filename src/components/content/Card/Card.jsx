@@ -50,7 +50,7 @@ export default function Card(props) {
         <p className={s.date}>{props.date} | <span onClick={() => props.setTopic(props.topic)}>{props.topic}</span></p>
 
         <article
-        className={props.isArticleVisible ? '' : 'hide'}
+        className={props.isArticleVisible ? '' : `${s.hide}`}
       >
         {
           props.fullPage.map(el => {

@@ -7,18 +7,6 @@ import { v4 as uuid } from 'uuid';
 import Card from './Card/Card'
 import { useState } from 'react'
 
-
-
-
-  
-
-
-
-
-
-
-
-
 function Content() {
   const cards = Data.map(el => {
     el.id = uuid();
